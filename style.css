@@ -1,0 +1,433 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: 0.2s ease;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header-dis {
+  background-image: url(images/home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.header {
+
+  margin: 0 auto;
+  width: 90%;
+}
+
+.navbar {
+
+  border: 1px solid white;
+  background-color: #fff;
+  border-radius: 50px;
+  display: flex;
+  box-shadow: 0px 0px 17px -2px rgb(0 0 0 / 75%);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  font-size: 1rem;
+  color: black;
+
+}
+
+.header .nav-items>a#first-child {
+  border-bottom: 1px solid #e84242;
+  padding-bottom: 10px;
+
+}
+
+.navbar a:hover {
+  border-bottom: 1px solid #e84242;
+  padding-bottom: 10px;
+}
+
+.nav-icons button {
+  margin: 0 10px;
+}
+
+.bars {
+  display: none;
+  cursor: pointer;
+}
+
+.header-yazi h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+#cizik {
+  border-bottom: 1px solid #e84242;
+  padding-bottom: 8px;
+}
+
+.header-yazi p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.8;
+  padding: 1rem 0;
+  color: #ccc;
+}
+
+.btn {
+  margin-top: 24px;
+  display: inline-block;
+  padding: 24px 34px;
+  border-radius: 30rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #0e0e0e;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.header2-dis {
+  width: 100%;
+  height: 4850px;
+  background-color: #e84242;
+}
+
+.header2 {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.header2 .baslik {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  font-size: 1.5rem;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+
+}
+
+.box {
+  width: 380px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 40px;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  padding: 26px;
+  margin: 10px;
+}
+
+.box h2 {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.box .first-span {
+  font-size: 28px;
+
+
+}
+
+.box .second-span {
+  font-size: 22px;
+  text-decoration: line-through;
+}
+
+
+#foto {
+  background-image: url(https://yt-food-website.netlify.app/images/dark-product.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.box .ayir {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box .ayir .sol {
+  display: block;
+  flex-wrap: nowrap;
+}
+
+.ayir .sag {
+  border: 2px solid #e84242;
+  border-radius: 50%;
+  padding: 25px;
+  color: #e84242;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#foto .ayir {
+  color: white;
+  padding-top: 320px;
+}
+
+.box p {
+  font-size: 14px;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 30px;
+}
+
+.two .right {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.box .ana {
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+.container-2 {
+  display: flex;
+
+}
+
+.container-2 .left {
+  width: 50%;
+}
+
+.container-2 .right {
+  width: 52%;
+  background-color: #0e0e0e;
+}
+
+.right .ic {
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+.ic input {
+  width: 100%;
+  padding: 1.1rem;
+  font-size: 1.3rem;
+  color: #fff;
+  text-transform: none;
+  background-color: transparent;
+  border: 1px solid grey;
+  margin: 10px;
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+  background-image: url("https://yt-food-website.netlify.app/images/blog-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+}
+
+.img:hover {
+  /* -ms-transform: scale(1); 
+  -webkit-transform: scale(1); 
+   transform: scale(1.1);  */
+  background-size: 120%;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer .ic {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+
+  display: block;
+  text-align: center;
+
+
+}
+
+.ic input {
+  background-color: white;
+  border-radius: 40px;
+  color: #e84242;
+}
+
+input:active {
+  border: 12px solid #e84242;
+}
+
+.ic button {
+  background-color: #e84242;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 22px;
+  width: 100px;
+}
+
+.ic button a {
+  color: white;
+}
+
+.ic .ust {
+  display: flex;
+  width: 100%;
+}
+
+.ic .alt {
+  display: flex;
+  width: 100%;
+  padding: 40px;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  margin-right: 900px;
+
+}
+
+.alt a {
+  margin: 0 10px;
+  color: white;
+  border: 1px solid white;
+  background-color: #e84242;
+  padding: 10px 30px;
+  width: 120px;
+}
+
+.alt a:hover {
+  background-color: black;
+  border-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:769px) {
+
+  .bars {
+    display: block;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .nav-icons {
+    display: flex;
+    flex-wrap: nowrap;
+
+  }
+
+  .header2-dis {
+    background-color: #e84242;
+    height: 10610px;
+  }
+
+  .two {
+    display: block;
+  }
+
+  .two .left img {
+    width: 350px;
+    height: 300px;
+  }
+
+  .ic,
+  input {
+    display: block;
+    width: 50%;
+
+  }
+
+  .baslik h2 {
+    font-size: 30px;
+  }
+
+  .container-2 {
+    display: block;
+
+  }
+
+  .container-2 iframe {
+    width: 360px;
+  }
+
+  .container-2 .right {
+    width: 360px;
+  }
+
+  .right .ic {
+    width: 100%;
+  }
+
+  .footer .ust {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer .alt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer .ic {
+    width: 100%;
+  }
+}
